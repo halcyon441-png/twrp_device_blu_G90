@@ -1,8 +1,7 @@
-# TWRP device tree for Oukitel WP1
+# TWRP device tree for Umidigi A7 Pro
+# I can't verify if this woks because I don't own this phone.
 
 ## About Device
-
-![OUKITEL WP1](https://d2giyh01gjb6fi.cloudfront.net/default/0002/59/thumb_158477_default_big.jpeg)
 
 ### Specifications
 
@@ -12,47 +11,54 @@ CPU     | Octa-core (4x 2.0 GHz ARM Cortex-A53 & 4x 1.5 GHz ARM Cortex-A53) Heli
 Chipset | MediaTek MT6763V
 GPU     | Dual-core Mali-G71 MP2, 700 MHz
 architecture | 64 bit
-Memory  | 4 GB LPDDR4X RAM, Dual channel, 1600 MHz
-Shipped Android Version | 	Android 8.1 Oreo
-Storage | 64 GB, eMMC 5.1
-Battery | 5000 mAh
-Height | 158.6 mm
-Width | 75.8 mm
-Thickness | 15.4 mm
-weight | 257g
-Display | 5.5" (13.97 cm), 24 bit color
+Memory  | 4 GB LPDDR4X RAM Dual Channel
+Shipped Android Version | Android 10
+Storage | 64/128 GB
+Battery | 4150 mAh
+Dimensions | 74.9 x 158.7 x 8.5 mm
+Display | 6.3" 19.5:9 FHD+ Full Screen, 2340x1080
 Screen resolution | 720 x 1440 pixels
-Pixel density | ~293 ppi
-Screen to body ratio | 65.15 %
 Display type | IPS LCD
-Aspect ratio | 18:9
-Primary Camera | 13 MP + 2 MP, f/2.8, Dual LED Flash, Sony IMX135 Exmor RS
-Primary Camera Resolution | Image: 4160 x 3120, Video: 1920 x 1080, 30 fps
-Secondary Camera | 5 MP, f/2.8, GalaxyCore GC5025
-Secondary Camera Resolution | Image: 2560 x 1920, Video: 1920 x 1080
-Colours | Black, Orange, Green
-Body Build | Front glass, Polycarbonate & Aluminium alloy body
-Quick charging | Yes, 9V/2A
-Wifi | Yes Wi-Fi 802.11, a/b/g/n, Hotspot, Direct
-Bluetooth | v4.2
-OTG | Yes, Reverse charge
-USB Type | C, 2.0, charging, mass storage, on-the-go
-Headphone Jack | No 3.5mm jack
-Network support | 4G (doesn't support Indian bands), 3G, 2G
-SIM 1 | 4G Bands:FD-LTE 2100(band 1) / 1800(band 3) / 2600(band 7) / 900(band 8) / 800(band 20)3G Bands: UMTS 2100 / 900 MHz2G Bands: GSM 1800 / 1900 / 850 / 900 MHz GPRS, EDGE:Available
-SIM size | SIM1: Nano, SIM2: Nano (Hybrid)
-SIM 2 | 2G Bands: GSM 1800 / 1900 / 850 / 900 MHz GPRS:Available
-Sensors | P/L-Sensors, Accelerometer, Gyroscope, Barometer, Geomagnetic Sensor
+Aspect ratio | 19.5:9
+Rear Cameras | Rear Quad Camera: 16MP main sensor + 16MP ultra wide angle sensor + 5MP depth sensor + 5MP macro lens, F/1.8, 6-element lens, LED flash, 1080p@30fps video recording
+Front-facing Camera | 16 MP, AI Beauty, S5K3P3, F/2.0 aperture, 5-element lens, Face Recognition, 1080p@30fps video capture
+Colours | Cosmic Black, Ocean Blue.
+Body Build | 2.5D curved glass + aluminium frame
+Quick charging | 10W
+Wifi | Wi-Fi 802.11 a/b/g/n, hotspot
+Bluetooth | v4.0, A2DP
+USB Type | C, 2.0
+NFC | No.
+Headphone Jack | 3.5mm jack
+Network support |  2G mobile network bands: GSM, GPRS, EDGE 850 / 900 / 1800 / 1900 MHz. 128GB version has CDMA1X: BC0 /BC1.
+3G mobile network bands: UMTS, WCDMA, HSDPA 850 / 900 / 2100 MHz. 128GB version has CDMA EVDO: BC0 /BC1
+4G mobile network bands: LTE 1(2100) / 2 / 3(1800) / 4 / 5(850) / 7 / 8(900) / 12 / 13 / 17 / 18 / 19 / 20 / 26 / 28A / 28B / 34 / 38(2600) / 39 / 40(2300) / 41(2500) / 66
+SIM | Nano-SIM, Dual SIM
+Sensors |      Digital Compass: Yes.
+    Accelerometer: Yes.
+    Proximity Sensor: Yes.
+    Ambient Light Sensor: Yes.
+    Barometer: No.
+    Pedometer: No.
+    Heart Rate Monitor: No.
+    Gyroscope (G-Sensor): Yes.
+    Fingerprint Scanner: Yes; rear-mounted.
+    Face Unlock: Yes.
+    Iris Scanner: No.
+    Motion Sensing / Gesture Control: No.
+    Voice Control: No.
+    Intelligent Digital Assistant: Yes; Google Assistant.
+    Infra-red Sensor: No.
 
 ---
 
-This device tree can be used to build twrp for Oukitel WP1
+This device tree can be used to build twrp for Umidigi A& Pro
 
 
 ## Build Instructions
 ```sh
 export ALLOW_MISSING_DEPENDENCIES=true
 . build/envsetup.sh
-lunch omni_wp1-eng
+lunch omni_A7_Pro-eng
 mka recoveryimage
 ```
