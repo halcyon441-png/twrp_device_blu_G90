@@ -21,5 +21,5 @@
 # function: add_lunch_combo generic-eng
 
 for var in eng user userdebug; do
-  add_lunch_combo omni_oukitel_wp1-$var
+  add_lunch_combo omni_UMIDIGI_A7_Pro-$var
 done

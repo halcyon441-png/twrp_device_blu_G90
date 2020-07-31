@@ -1,2 +1,2 @@
 PRODUCT_MAKEFILES := \
-	$(LOCAL_DIR)/omni_wp1.mk
+	$(LOCAL_DIR)/omni_A7_Pro.mk

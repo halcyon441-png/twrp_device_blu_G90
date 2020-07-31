@@ -1,5 +1,5 @@
 # Device path
-LOCAL_PATH := device/oukitel/wp1
+LOCAL_PATH := device/umidigi/A7_Pro
 
 # Architecture
 TARGET_ARCH := arm64
