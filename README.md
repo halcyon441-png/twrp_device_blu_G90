@@ -30,29 +30,15 @@ Bluetooth | v4.0, A2DP
 USB Type | C, 2.0
 NFC | No.
 Headphone Jack | 3.5mm jack
-Network support |  2G mobile network bands: GSM, GPRS, EDGE 850 / 900 / 1800 / 1900 MHz. 128GB version has CDMA1X: BC0 /BC1.
-3G mobile network bands: UMTS, WCDMA, HSDPA 850 / 900 / 2100 MHz. 128GB version has CDMA EVDO: BC0 /BC1
-4G mobile network bands: LTE 1(2100) / 2 / 3(1800) / 4 / 5(850) / 7 / 8(900) / 12 / 13 / 17 / 18 / 19 / 20 / 26 / 28A / 28B / 34 / 38(2600) / 39 / 40(2300) / 41(2500) / 66
+2G mobile network bands | GSM, GPRS, EDGE 850 / 900 / 1800 / 1900 MHz. 128GB version has CDMA1X: BC0 /BC1.
+3G mobile network bands | UMTS, WCDMA, HSDPA 850 / 900 / 2100 MHz. 128GB version has CDMA EVDO: BC0 /BC1
+4G mobile network bands | LTE 1(2100) / 2 / 3(1800) / 4 / 5(850) / 7 / 8(900) / 12 / 13 / 17 / 18 / 19 / 20 / 26 / 28A / 28B / 34 / 38(2600) / 39 / 40(2300) / 41(2500) / 66
 SIM | Nano-SIM, Dual SIM
-Sensors |      Digital Compass: Yes.
-    Accelerometer: Yes.
-    Proximity Sensor: Yes.
-    Ambient Light Sensor: Yes.
-    Barometer: No.
-    Pedometer: No.
-    Heart Rate Monitor: No.
-    Gyroscope (G-Sensor): Yes.
-    Fingerprint Scanner: Yes; rear-mounted.
-    Face Unlock: Yes.
-    Iris Scanner: No.
-    Motion Sensing / Gesture Control: No.
-    Voice Control: No.
-    Intelligent Digital Assistant: Yes; Google Assistant.
-    Infra-red Sensor: No.
+Sensors | Digital Compass: Yes. Accelerometer: Yes. Proximity Sensor: Yes. Ambient Light Sensor: Yes. Barometer: No. Pedometer: No.Heart Rate Monitor: No. Gyroscope (G-Sensor): Yes. Fingerprint Scanner: Yes rear-mounted. Face Unlock: Yes. Iris Scanner: No. Motion Sensing / Gesture Control: No. Voice Control: No. Digital Assistant: Yes Google Assistant. Infra-red Sensor: No.
 
 ---
 
-This device tree can be used to build twrp for Umidigi A& Pro
+This device tree can be used to build twrp for Umidigi A7 Pro
 
 
 ## Build Instructions
