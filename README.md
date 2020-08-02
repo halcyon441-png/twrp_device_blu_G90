@@ -37,7 +37,6 @@ SIM | Nano-SIM, Dual SIM
 
 Sensors | Details
 -------:|:-------------------------
-Sensors |
 Digital Compass | Yes.
 Accelerometer | Yes.
 Proximity Sensor | Yes.
