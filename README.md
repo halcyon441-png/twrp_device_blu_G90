@@ -35,6 +35,8 @@ Headphone Jack | 3.5mm jack
 4G mobile network bands | LTE 1(2100) / 2 / 3(1800) / 4 / 5(850) / 7 / 8(900) / 12 / 13 / 17 / 18 / 19 / 20 / 26 / 28A / 28B / 34 / 38(2600) / 39 / 40(2300) / 41(2500) / 66
 SIM | Nano-SIM, Dual SIM
 
+Sensors | Details
+-------:|:-------------------------
 Sensors |
 Digital Compass | Yes.
 Accelerometer | Yes.
