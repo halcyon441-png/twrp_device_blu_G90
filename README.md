@@ -1,7 +1,7 @@
 # TWRP device tree for Umidigi A7 Pro
 # I can't verify if this woks because I don't own this phone.
 
-#BASED ON
+# BASED ON
 
 https://github.com/TeamWin/android_device_oukitel_wp1
 
