@@ -6,6 +6,7 @@
 https://github.com/TeamWin/android_device_oukitel_wp1
 
 https://github.com/mauronofrio/android_device_xiaomi_curtana
+
 more info about these sources in commits
 
 ## About Device
