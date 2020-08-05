@@ -6,11 +6,7 @@
 # 1 "<built-in>" 2
 # 1 "vendor/mediatek/proprietary/hardware/fstab/mt6763/fstab.in.mt6763" 2
 # 127 "vendor/mediatek/proprietary/hardware/fstab/mt6763/fstab.in.mt6763"
-system /system ext4 ro wait,avb=vbmeta_system,logical,first_stage_mount,avb_keys=/avb/q-gsi.avbpubkey:/avb/r-gsi.avbpubkey:/avb/s-gsi.avbpubkey,
 
-vendor /vendor ext4 ro wait,avb,logical,first_stage_mount,
-
-product /product ext4 ro wait,avb,logical,first_stage_mount,
 # 151 "vendor/mediatek/proprietary/hardware/fstab/mt6763/fstab.in.mt6763"
 /dev/block/platform/bootdevice/by-name/md_udc /metadata ext4 noatime,nosuid,nodev,discard wait,formattable,first_stage_mount
 /dev/block/platform/bootdevice/by-name/userdata /data ext4 noatime,nosuid,nodev,noauto_da_alloc,errors=panic wait,check,formattable,quota,reservedsize=128m,formattable,resize,checkpoint=block,fileencryption=aes-256-xts
@@ -54,8 +50,15 @@ product /product ext4 ro wait,avb,logical,first_stage_mount,
 /dev/block/platform/bootdevice/by-name/vbmeta /vbmeta emmc defaults defaults
 
 # SUPER PARTITION
-system		/system			ext4		logical
-vendor		/vendor			ext4		display="Vendor";logical
-product		/product		ext4		display="Product";logical
+system /system ext4 ro wait,avb=vbmeta_system,logical,first_stage_mount,avb_keys=/avb/q-gsi.avbpubkey:/avb/r-gsi.avbpubkey:/avb/s-gsi.avbpubkey,
+vendor /vendor ext4 ro wait,avb,logical,first_stage_mount,
+product /product ext4 ro wait,avb,logical,first_stage_mount,
 odm			/odm		    ext4		display="Odm";logical
+
 /super_image   emmc    /dev/block/bootdevice/by-name/super                       flags=backup=1;display="Super"
+
+
+
+
+
+
