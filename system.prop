@@ -4,7 +4,6 @@ ro.product.device=A7_Pro
 ro.build.product=A7_Pro
 ro.treble.enabled=true
 
-ro.product.board=atoll
 persist.sys.isUsbOtgEnabled=true
 vendor.gatekeeper.disable_spu=true
 ro.boot.dynamic_partitions=true
