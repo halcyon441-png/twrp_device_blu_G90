@@ -49,7 +49,8 @@ Digital Compass | Yes.
 Accelerometer | Yes.
 Proximity Sensor | Yes.
 Ambient Light Sensor | Yes.
-Barometer: No. Pedometer | No.
+Barometer | No.
+Pedometer | No.
 Heart Rate Monitor | No.
 Gyroscope | Yes.
 Fingerprint Scanner | Yes rear-mounted.
