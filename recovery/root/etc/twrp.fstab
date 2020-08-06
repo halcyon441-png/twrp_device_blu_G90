@@ -37,7 +37,8 @@
 /dtbo                        emmc /dev/block/platform/bootdevice/by-name/dtbo                   flags=backup=1
 /vbmeta                      emmc /dev/block/platform/bootdevice/by-name/vbmeta                 flags=backup=1
 
-# SUPER PARTITION system		/system			ext4		slotselect;logical
+# SUPER PARTITION
+system       /system        ext4                     ro wait,avb=vbmeta_system,logical,first_stage_mount,avb_keys=/avb/q-gsi.avbpubkey:/avb/r-gsi.avbpubkey:/avb/s-gsi.avbpubkey,
 vendor       /vendor        ext4                     slotselect;display="Vendor";logical
 product      /product       ext4                     slotselect;display="Product";logical
 odm          /odm           ext4                     slotselect;display="Odm";logical
