@@ -42,4 +42,4 @@ vendor       /vendor        ext4                     slotselect;display="Vendor"
 product      /product       ext4                     slotselect;display="Product";logical
 odm          /odm           ext4                     slotselect;display="Odm";logical
 
-/super        emmc          /dev/block/bootdevice/by-name/super        flags=display="super";backup=1;flashimg=1
+/super_image        emmc          /dev/block/bootdevice/by-name/super        flags=display="super";backup=1;flashimg=1
