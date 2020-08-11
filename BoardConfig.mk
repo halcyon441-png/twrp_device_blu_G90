@@ -15,7 +15,10 @@
 #
 
 # Device path
-LOCAL_PATH := device/umidigi/A7_Pro
+LOCAL_PATH := device/blu/G90
+
+# For building with minimal manifest
+ALLOW_MISSING_DEPENDENCIES := true
 
 # Architecture
 TARGET_ARCH := arm64
@@ -25,21 +28,24 @@ TARGET_CPU_ABI2 :=
 TARGET_CPU_VARIANT := cortex-a53
 
 TARGET_2ND_ARCH := arm
-TARGET_2ND_ARCH_VARIANT := armv7-a-neon
+TARGET_2ND_ARCH_VARIANT := armv8-a
 TARGET_2ND_CPU_ABI := armeabi-v7a
 TARGET_2ND_CPU_ABI2 := armeabi
 TARGET_2ND_CPU_VARIANT := cortex-a53
 
 # Platform
-TARGET_BOARD_PLATFORM := mt6763
+TARGET_BOARD_PLATFORM := mt6765
 
 # Bootloader
 TARGET_NO_BOOTLOADER := true
 
 # Kernel
 BOARD_KERNEL_CMDLINE := bootopt=64S3,32N2,64N2 androidboot.selinux=permissive
+BOARD_INCLUDE_RECOVERY_DTBO := true
 
 TARGET_PREBUILT_KERNEL := $(LOCAL_PATH)/prebuilt/kernel
+TARGET_PREBUILT_DTB := $(LOCAL_PATH)/prebuilt/dtb
+TARGET_PREBUILT_DTBOIMAGE := $(LOCAL_PATH)/prebuilt/dtbo
 
 BOARD_KERNEL_PAGESIZE := 2048
 BOARD_BOOT_HEADER_VERSION := 2
@@ -140,4 +146,4 @@ TW_EXTRA_LANGUAGES := true
 TW_DEFAULT_LANGUAGE := en
 TW_NO_SCREEN_BLANK := true
 TW_NO_BATT_PERCENT := false
-PLATFORM_VERSION := 16.1.0
+#PLATFORM_VERSION := 16.1.0

@@ -1,7 +1,7 @@
-ro.product.brand=UMIDIGI
-ro.product.name=A7_Pro
-ro.product.device=A7_Pro
-ro.build.product=A7_Pro
+ro.product.brand=BLU
+ro.product.name=G90
+ro.product.device=G90
+ro.build.product=G90
 ro.treble.enabled=true
 
 persist.sys.isUsbOtgEnabled=true

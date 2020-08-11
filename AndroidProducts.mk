@@ -1,7 +1,7 @@
 PRODUCT_MAKEFILES := \
-	$(LOCAL_DIR)/omni_A7_Pro.mk
+	$(LOCAL_DIR)/omni_G90.mk
 
 COMMON_LUNCH_CHOICES := \
-    omni_A7_Pro-user \
-    omni_A7_Pro-userdebug \
-    omni_A7_Pro-eng
+    omni_G90-user \
+    omni_G90-userdebug \
+    omni_G90-eng
