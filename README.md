@@ -1,5 +1,5 @@
-# TWRP device tree for Umidigi A7 Pro
-# I can't verify if this woks because I don't own this phone.
+# TWRP device tree for Blu G90
+# 
 
 ### BASED ON
 
@@ -15,32 +15,32 @@ more info about these sources in commits
 
 Component Type | Details
 -------:|:-------------------------
-CPU     | Octa-core (4x 2.0 GHz ARM Cortex-A53 & 4x 1.5 GHz ARM Cortex-A53) Helio P23
+CPU     | Octa-core (4x1.8 GHz Cortex-A53 & 4x1.5 GHz Cortex-A53) MediaTek Helio A25
 Chipset | MediaTek MT6763V
-GPU     | Dual-core Mali-G71 MP2, 700 MHz
+GPU     | PowerVR GE8320
 architecture | 64 bit
 Memory  | 4 GB LPDDR4X RAM Dual Channel
 Shipped Android Version | Android 10
-Storage | 64/128 GB
-Battery | 4150 mAh
-Dimensions | 74.9 x 158.7 x 8.5 mm
-Display | 6.3" 19.5:9 FHD+ Full Screen, 2340x1080
-Screen resolution | 720 x 1440 pixels
+Storage | 64 GB
+Battery | 4000 mAh
+Dimensions | 164.6 x 76.5 x 8.8 mm (6.48 x 3.01 x 0.35 in)
+Display | 6.5 inches, 102.0 cm2 (~81.0% screen-to-body ratio)
+Screen resolution | 720 x 1600 pixels
 Display type | IPS LCD
-Aspect ratio | 19.5:9
-Rear Cameras | Rear Quad Camera: 16MP main sensor + 16MP ultra wide angle sensor + 5MP depth sensor + 5MP macro lens, F/1.8, 6-element lens, LED flash, 1080p@30fps video recording
-Front-facing Camera | 16 MP, AI Beauty, S5K3P3, F/2.0 aperture, 5-element lens, Face Recognition, 1080p@30fps video capture
-Colours | Cosmic Black, Ocean Blue.
+Aspect ratio | 20:9
+Rear Cameras | 16 MP, f/2.0, (wide), 1/3.06", 1.0µm, PDAF, 8 MP, f/2.2, (ultrawide), 1/4.0", 1.12µm ,2 MP, f/2.8, (depth), LED flash, 1080p@30fps video recording
+Front-facing Camera | 13 MP, f/2.0, Face Recognition, 1080p@30fps video capture
+Colours | Black, White, Magenta, Blue.
 Body Build | 2.5D curved glass + aluminium frame
 Quick charging | 10W
 Wifi | Wi-Fi 802.11 a/b/g/n, hotspot
-Bluetooth | v4.0, A2DP
+Bluetooth | 4.1, A2DP, LE
 USB Type | C, 2.0
-NFC | No.
+NFC | Yes.
 Headphone Jack | 3.5mm jack
-2G mobile network bands | GSM, GPRS, EDGE 850 / 900 / 1800 / 1900 MHz. 128GB version has CDMA1X: BC0 /BC1.
-3G mobile network bands | UMTS, WCDMA, HSDPA 850 / 900 / 2100 MHz. 128GB version has CDMA EVDO: BC0 /BC1
-4G mobile network bands | LTE 1(2100) / 2 / 3(1800) / 4 / 5(850) / 7 / 8(900) / 12 / 13 / 17 / 18 / 19 / 20 / 26 / 28A / 28B / 34 / 38(2600) / 39 / 40(2300) / 41(2500) / 66
+2G mobile network bands | GSM
+3G mobile network bands | HSPA
+4G mobile network bands | LTE 1(2100) / 2 / 3(1800) / 4 / 5(850) / 7 / 8(900) / 12 / 13 / 17 / 28
 SIM | Nano-SIM, Dual SIM
 
 Sensors | Details
@@ -56,20 +56,20 @@ Gyroscope | Yes.
 Fingerprint Scanner | Yes rear-mounted.
 Face Unlock | Yes.
 Iris Scanner | No.
-Motion Sensing / Gesture Control | No.
+Motion Sensing / Gesture Control | Yes.
 Voice Control | No.
 Digital Assistant | Yes Google Assistant.
 Infra-red Sensor | No.
 
 ---
 
-This device tree can be used to build twrp for Umidigi A7 Pro
+This device tree can be used to build twrp for BLU G90
 
 
 ## Build Instructions
 ```sh
 export ALLOW_MISSING_DEPENDENCIES=true
 . build/envsetup.sh
-lunch omni_A7_Pro-eng
+lunch omni_G90-eng
 mka recoveryimage
 ```
