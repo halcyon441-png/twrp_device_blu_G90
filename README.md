@@ -63,13 +63,13 @@ Infra-red Sensor | No.
 
 ---
 
-This device tree can be used to build twrp for BLU G90
+This device tree IS WIP ONLY Intended to be used to build twrp for BLU G90 On twrp 10.0 source
 
 
 ## Build Instructions
 ```sh
 export ALLOW_MISSING_DEPENDENCIES=true
 . build/envsetup.sh
-lunch omni_G90-eng
+lunch omni_G0310WW-eng
 mka recoveryimage
 ```

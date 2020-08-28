@@ -1,7 +1,7 @@
 ro.product.brand=BLU
-ro.product.name=G90
-ro.product.device=G90
-ro.build.product=G90
+ro.product.name=G0310WW
+ro.product.device=G0310WW
+ro.build.product=G0310WW
 ro.treble.enabled=true
 
 persist.sys.isUsbOtgEnabled=true
